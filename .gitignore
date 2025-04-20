@@ -43,3 +43,43 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+
+
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+build/
+flutter_*.png
+
+# IDEs and editors
+.idea/
+.vscode/
+*.iml
+
+# Others
+*.log
+pubspec.lock
+*.lock
+
+# Windows build
+windows/
+
+# macOS build
+macos/
+
+# Linux build
+linux/
+
+# Android/iOS (you can remove these if not using mobile)
+android/.gradle
+android/.idea
+android/local.properties
+android/*.iml
+ios/Pods
+ios/.generated
+
+# Xcode specific
+*.xcodeproj/
+*.xcworkspace/
